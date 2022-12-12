@@ -1,2 +1,3 @@
 # bcvcbots
-bcvcbots
+
+BCVC LİNK KISALTMA İÇİN ÖZEL YAPILMIŞ GELİŞTİRİLMEYE AÇIK BİR BOT
