@@ -385,7 +385,7 @@ class App():
                     #chrome_options.set_headless(headless=True)
                     self.driver = webdriver.Chrome(executable_path='chromedriver', chrome_options=chrome_options)
                     try:
-                        self.driver.set_page_load_timeout(3000)
+                        self.driver.set_page_load_timeout(2000)
                         # extension_path = "adblock.xpi"
                         # driver.install_addon(extension_path, temporary=True)
                         self.driver.get("%s" % url)
@@ -912,7 +912,7 @@ class App1():
                     # chrome_options.set_headless(headless=True)
                     self.driver = webdriver.Chrome(executable_path='chromedriver.exe', chrome_options=chrome_options)
                     try:
-                        self.driver.set_page_load_timeout(3000)
+                        self.driver.set_page_load_timeout(2000)
                         # extension_path = "adblock.xpi"
                         # driver.install_addon(extension_path, temporary=True)
                         self.driver.get("%s" % url)
