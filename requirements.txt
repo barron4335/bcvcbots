@@ -1,0 +1,6 @@
+http
+urllib3
+selenium
+bs4
+requests
+sqlite3
